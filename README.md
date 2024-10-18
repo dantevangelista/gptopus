@@ -9,7 +9,7 @@ GPTopus uses `tiktoken`, the OpenAI byte pair encoding (BPE) tokeniser, to encod
 To install required libraries for GPTopus from `pip`:
 
 ``` 
-$ pip install torch, tiktoken 
+$ pip install torch, tiktoken
 ```
 
 ## ⛵ Quickstart
@@ -17,12 +17,12 @@ $ pip install torch, tiktoken
 <img src="https://github.com/dantevangelista/gptopus/blob/main/visual/loss.png">
 </p>
 
-Figure 1. Training and Validation Loss for 4000 Iterations with frankestein.txt Dataset on 15GB TP4 GPU
+Figure 1. Training and Validation Loss for 4000 Iterations with `frankestein.txt` Dataset on 15GB TP4 GPU
 
 Using OpenGPT:
 * Get input text and place in same folder as `gptopus.py`
 
-eg. frankenstein.txt
+eg. `frankenstein.txt`
 ``` 
 Letter 1
 
@@ -70,7 +70,7 @@ enc = tiktoken.encoding_for_model("gpt-4o") # change gpt model
 * Generated text file created and placed in same folder as `gptopus.py`,
 generated text file will use input filename inserting `_out.txt`
 
-eg. frankenstein_out.txt
+eg. `frankenstein_out.txt`
 ```
 !uing all my family are for your destruction and
 str yourself: I felt a strange companions of spirit as far different branches, my gaishown will be the winds, in
