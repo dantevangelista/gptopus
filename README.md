@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="logo.png" width="100px">
+<img src="https://github.com/dantevangelista/gptopus/blob/main/logo.png">
 </p>
 
 GPTopus is a decoder-only transformer that generates new text based on input text.
@@ -8,11 +8,13 @@ GPTopus uses `tiktoken`, the OpenAI byte pair encoding (BPE) tokeniser, to encod
 ## 📦 Install
 To install required libraries for GPTopus from `pip`:
 
-```` pip install torch, tiktoken ```
+``` 
+$ pip install torch, tiktoken 
+```
 
 ## ⛵ Quickstart
 <p align="center"> 
-<img src="visual/loss.png" width="100px">
+<img src="https://github.com/dantevangelista/gptopus/blob/main/visual/loss.png">
 </p>
 
 Figure 1. Training and Validation Loss for 4000 Iterations with frankestein.txt Dataset on 15GB TP4 GPU
@@ -47,17 +49,23 @@ which I am advancing, gives me a foretaste of those icy climes.
 * Change hyperparameters
 
 eg. 
-``` max_new_tkns = 1000 # generated text length ```
+``` 
+max_new_tkns = 1000 # generated text length 
+```
 
 * set `filename` as input text
 
 eg.
-``` filename = 'frankenstein.txt' # set as input text ```
+``` 
+filename = 'frankenstein.txt' # set as input text 
+```
 
 * Set gpt model
 
 eg.
-``` enc = tiktoken.encoding_for_model("gpt-4o") # change gpt model ```
+``` 
+enc = tiktoken.encoding_for_model("gpt-4o") # change gpt model 
+```
 
 * Generated text file created and placed in same folder as `gptopus.py`,
 generated text file will use input filename inserting `_out.txt`
@@ -79,4 +87,4 @@ shel from my father calmed himselfive the fresh weary.
 ```
 
 ## 🪪 License
-[MIT]()
+[MIT](https://github.com/dantevangelista/gptopus/blob/main/LICENSE)
