@@ -2,7 +2,7 @@
 <img src="https://github.com/dantevangelista/gptopus/blob/main/logo.png">
 </p>
 
-GPTopus is a decoder-only transformer that generates new text based on input text.
+🐙GPTopus is a decoder-only transformer that generates new text based on input text.
 GPTopus uses `tiktoken`, the OpenAI byte pair encoding (BPE) tokeniser, to encode and decode text.
 
 ## 📦 Install
